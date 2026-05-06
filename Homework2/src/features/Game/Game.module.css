@@ -1,0 +1,54 @@
+.gameContainer {
+  text-align: center;
+  padding: 2rem;
+  background: #23272f;
+  color: #fff;
+  border-radius: 1.5rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+}
+
+.buttonRow {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.gameBtn {
+  background: #181c24;
+  color: #fffff8;
+  border: 2px solid #646cff;
+  border-radius: 1rem;
+  padding: 1rem;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+  outline: none;
+  width: 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gameBtn:hover {
+  background: #646cff;
+  color: #181c24;
+  transform: translateY(-3px) scale(1.06);
+}
+
+.btnLabel {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+.results h2 {
+  margin-top: 1.5rem;
+  font-size: 2rem;
+}
+
+.results h3 {
+  font-size: 1.1rem;
+  margin: 1rem 0 0 0;
+}
